@@ -29,9 +29,11 @@ nav {
 }
 
 .logo{
+    position: absolute;
     width: 112px;
     object-fit: contain;
-    margin-left: -210px;
+    top: 0;
+    left: 0;
 }
 
 .profile{
