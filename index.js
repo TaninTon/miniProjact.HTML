@@ -69,10 +69,10 @@ if (topElements) {
             <a href="CART.html">
             <i class="bi bi-basket"></i>
             </a>
+            <div class="cartcount">
+            ${carts.length}
+        </div>
             </div>
-                <div class="cartcount">
-                    ${carts.length}
-                </div>
                 </div>
             </div>
         </div>
