@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+body{
+    background-image: url(https://wallpaperaccess.com/full/8506764.png);
+    background-size: 1920px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.main h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Satisfy', cursive;
+    font-style: italic;
+    /* text-decoration: underline; */
+    margin-top: 20px;
+    color: white;
+}
+.main p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    color: white;
+}
+.main img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20rem;
+    height: 20rem;
+    margin-bottom: 10px;
+    border-radius: 5%;
+}
+.main {
+    border-style: solid;
+    border-radius: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 1rem;
+    background: rgba(0,0,0,0.7);
+    margin-top: 15rem;
+    border: none;
+}
+.main button {
+    color: white;
+    background-color: #800080;
+    border: 2px solid purple;
+    &:hover{
+        /* color: white; */
+        background-color: #600060;
+    }
+}
+.entrance a{
+    font-size: larger;
+    text-decoration: none;
+    color: white;
+}
+.top{
+    background: rgba(255,255,255,0.25);
+}
+.portal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 900px;
+    margin-left: 90px;
+}
+.portal a{
+    color: white;
+    text-decoration: none;
+}
+.portal button{
+    margin-top: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    &:hover{
+        transform: scale(1.1);
+    }
+}
+.portal p {
+    position: absolute;
+    font-size: 20px;
+    right: 100px;
+    top: 0;
+    margin-right: 5rem;
+    margin-top: 1rem;
+    color: white;
+}
+.nav-shopping-cart{
+    position: absolute;
+    right: 90px;
+    top: 5px;
+    font-size: 33px;
+    transition: 0.3s;
+    &:hover{
+        transform: scale(1.2);
+    }
+}
+.cart-count{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    top: 0;
+    right: -10px;
+    font-size: 15px;
+    border-radius: 50%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,1);
+    color: white;
+    padding-top: 10px;
+}
+.bottom-left{
+    margin-left: 50px;
+    /* margin-bottom: 15px; */
+}
+.bottom-left span{
+    margin-bottom: 0;
+}
+/* Used by products.html */
+.searchbar{
+    position: absolute;
+    right: 0;
+    display: flex;
+    justify-content: right;
+    margin-right: 90px;
+    width: 25%;
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 2rem;
+    margin: 2rem;
+}
+.products img{
+    border-radius: 5%;
+    transition: 0.3s;
+    height: 25rem;
+    &:hover{
+        transform: scale(1.05);
+    }
+}
+/* Used by item.html */
+.item{
+    padding: 2rem;
+    margin: 2rem;
+}
+.buy{
+    margin: 2rem 15rem 2rem;
+}
+.item img{
+    height: 25rem;
+    margin-top: -2rem;
+}
+.stockout p{
+    font-size: larger;
+    color: red;
+}
+/* .me-2 input{
+    margin-right: auto;
+    width: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+/* Used by faq.html */
+.faq-item h3{
+    color: white;
+    margin-left: 2rem;
+}
+.faq-item{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+/* Used by cart.html */
+.content-cart{
+    margin: 40px 90px 0px 90px;
+}
+.content-cart img{
+    width: 6rem;
+    height: 6rem;
+}
+.content-cart button{
+    background-color: darkred;
+    border: 2px solid crimson;
+    &:hover{
+        /* color: white; */
+        background-color: #770000;
+    }
+}
+#buyConfirm button {
+    background-color: green;
+    border: 2px solid green;
+    &:hover{
+        /* color: white; */
+        background-color: darkgreen;
+    }
+}
